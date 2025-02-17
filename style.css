@@ -17,6 +17,10 @@ body.dark-mode {
     color: #c6c8c9;
 }
 
+.dark-mode #inputText{
+    color: #c6c8c9;
+}
+
 .dark-mode .card,
 .dark-mode .form-control,
 .dark-mode .form-select {
