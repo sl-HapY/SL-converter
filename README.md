@@ -3,8 +3,8 @@
 
 [OPEN SITE]()
 
-- [Persian readme]() 
-- [Russian readme]()
+- [Persian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/FAreadme.md) 
+- [Russian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/RUreadme.md)
   
 ## Supported Conversions:
 
