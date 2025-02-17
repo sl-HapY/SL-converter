@@ -1,6 +1,8 @@
 ## Salist Converter
 [باز کردن سایت]()
 
+- [Russian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/RUreadme.md)
+- [English readme](https://github.com/sl-HapY/Salist-Converter/blob/main/README.md)
 ### پشتیبانی از تبدیل‌های
 
 - Base64 رمزگذاری و رمزگشایی
