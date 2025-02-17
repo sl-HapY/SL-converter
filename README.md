@@ -1,7 +1,7 @@
 
 # Salist Converter
 
-[OPEN SITE]()
+[OPEN SITE](https://sl-hapy.github.io/Salist-Converter/)
 
 - [Persian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/FAreadme.md) 
 - [Russian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/RUreadme.md)
