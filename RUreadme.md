@@ -1,6 +1,6 @@
 
 ## Salist Converter
-[Открыть сайт]()
+[Открыть сайт](https://sl-hapy.github.io/Salist-Converter/)
 
 - [Persian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/FAreadme.md) 
 - [English readme](https://github.com/sl-HapY/Salist-Converter/blob/main/README.md)
