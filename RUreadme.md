@@ -2,8 +2,9 @@
 ## Salist Converter
 [Открыть сайт]()
 
-- [pesian]()
-- [english](https://github.com/sl-HapY/Salist-Converter/blob/main/README.md)
+- [Persian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/FAreadme.md) 
+- [English readme](https://github.com/sl-HapY/Salist-Converter/blob/main/README.md)
+- 
 ### Поддерживаемые преобразования
 
 - Base64: кодирование и декодирование
