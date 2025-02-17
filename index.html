@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Salist Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Salist Converter</a>
+            <div class="d-flex align-items-center navv">
+                <div class="radio-inputs me-3">
+                    <label class="radio">
+                        <input type="radio" name="language" value="fa" checked />
+                        <span class="name">فارسی</span>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="language" value="ru" />
+                        <span class="name">Русский</span>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="language" value="en" />
+                        <span class="name">English</span>
+                    </label>
+                </div>
+
+                <label class="ui-switch mb-0">
+                    <input type="checkbox" id="mode-toggle-checkbox">
+                    <div class="slider">
+                        <div class="circle"></div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="mb-3">
+                    <label for="converterSelect" class="form-label" data-lang-key="selectConverter">Select
+                        Converter</label>
+                    <select class="form-select" id="converterSelect">
+                        <option value="ascii-to-binary">ASCII to binary</option>
+                        <option value="binary-to-ascii">Binary to ASCII</option>
+                        <option value="ascii-to-hex">ASCII to hex</option>
+                        <option value="hex-to-ascii">Hex to ASCII</option>
+                        <option value="binary-to-decimal">Binary to decimal</option>
+                        <option value="decimal-to-binary">Decimal to binary</option>
+                        <option value="binary-to-hex">Binary to hex</option>
+                        <option value="hex-to-binary">Hex to binary</option>
+                        <option value="base64-encode">Base64 Encode</option>
+                        <option value="base64-decode">Base64 Decode</option>
+                        <option value="rot13">ROT13</option>
+                        <option value="url-encode">URL Encode</option>
+                        <option value="url-decode">URL Decode</option>
+                        <option value="decimal-to-fraction">Decimal to fraction</option>
+                        <option value="fraction-to-decimal">Fraction to decimal</option>
+                        <option value="decimal-to-percent">Decimal to percent</option>
+                        <option value="percent-to-decimal">Percent to decimal</option>
+                        <option value="decimal-to-octal">Decimal to octal</option>
+                        <option value="octal-to-decimal">Octal to decimal</option>
+                        <option value="decimal-to-hex">Decimal to hex</option>
+                        <option value="hex-to-decimal">Hex to decimal</option>
+                        <option value="fraction-to-percent">Fraction to percent</option>
+                        <option value="percent-to-fraction">Percent to fraction</option>
+                        <option value="percent-to-ppm">Percent to ppm</option>
+                        <option value="ppm-to-percent">ppm to percent</option>
+                        <option value="ppm-to-ppb">ppm to ppb</option>
+                        <option value="ppb-to-ppm">ppb to ppm</option>
+                        <option value="ppm-to-ppt">ppm to ppt</option>
+                        <option value="ppt-to-ppm">ppt to ppm</option>
+                        <option value="date-to-roman">Date to roman</option>
+                        <option value="roman-numerals">Roman numerals</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputText" class="form-label" data-lang-key="inputText">Enter text</label>
+                    <textarea class="form-control" id="inputText" rows="3"></textarea>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button class="convertbtn" id="convertBtn">
+                        <span class="button-content">convert</span>
+                    </button>
+                </div>
+
+                <div class="mt-4">
+                    <label class="form-label" data-lang-key="output"></label>
+                    <div class="input-group">
+                        <textarea class="form-control" id="outputText" rows="6" readonly></textarea>
+                        <button class="btn btn-outline-secondary" type="button" id="copyBtn"
+                            data-lang-key="copy">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <pre class="foot">© 2025 Salist™ - Created by <a href="https://github.com/sl-HapY" style="color: #0dcaf0;">sl_HapY</a></pre>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
