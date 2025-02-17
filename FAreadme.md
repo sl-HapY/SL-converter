@@ -1,5 +1,5 @@
 ## Salist Converter
-[باز کردن سایت]()
+[باز کردن سایت](https://sl-hapy.github.io/Salist-Converter/)
 
 - [Russian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/RUreadme.md)
 - [English readme](https://github.com/sl-HapY/Salist-Converter/blob/main/README.md)
