@@ -78,7 +78,7 @@ body.dark-mode {
 }
 
 .convertbtn:hover::before {
-    scale: 10;
+    scale: 11;
 }
 
 .convertbtn:hover {
