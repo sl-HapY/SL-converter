@@ -78,7 +78,7 @@ body.dark-mode {
 }
 
 .convertbtn:hover::before {
-    scale: 11;
+    scale: 10;
 }
 
 .convertbtn:hover {
@@ -286,14 +286,7 @@ body.dark-mode {
     font-size: 13px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: #dddddd;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    height: 50px;
+    color: #000000;
 }
 @media (max-width: 385px) {
     .navv {
