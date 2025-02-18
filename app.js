@@ -38,10 +38,9 @@
             });
         });
 
-
-        document.getElementById('mode-toggle-checkbox').addEventListener('change', function () {
+        function setDarkMode(isDarkMode) {
             const navbar = document.getElementById('navbar');
-            if (this.checked) {
+            if (isDarkMode) {
                 document.body.classList.add('dark-mode');
                 navbar.classList.remove('navbar-light', 'bg-light');
                 navbar.classList.add('navbar-dark', 'bg-dark');
@@ -50,8 +49,14 @@
                 navbar.classList.remove('navbar-dark', 'bg-dark');
                 navbar.classList.add('navbar-light', 'bg-light');
             }
-        });
+        }
 
+        const modeToggleCheckbox = document.getElementById('mode-toggle-checkbox');
+        setDarkMode(modeToggleCheckbox.checked);
+
+        modeToggleCheckbox.addEventListener('change', function () {
+            setDarkMode(this.checked);
+        });
 
         function asciiToBinary(text) {
             return text.split('')
