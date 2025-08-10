@@ -1,10 +1,10 @@
 
 # Salist Converter
 
-[OPEN SITE](https://sl-hapy.github.io/Salist-Converter/)
-
-- [Persian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/FAreadme.md) 
-- [Russian readme](https://github.com/sl-HapY/Salist-Converter/blob/main/RUreadme.md)
+[OPEN SITE](https://sl-hapy.github.io/SL-converter
+/)
+- [Persian readme](https://github.com/sl-HapY/SL-converter/blob/main/FAreadme.md) 
+- [Russian readme](https://github.com/sl-HapY/SL-converter/blob/main/RUreadme.md)
   
 ## Supported Conversions:
 
